@@ -1,0 +1,46 @@
+baseurl = "http://example.com/"
+title = "Flying to Paraguay"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Colin Brayton"
+# googleAnalytics = "XXX"
+# disqusShortname = "XXX"
+
+[Author]
+    name = "Colin Brayton"
+#    profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[Params]
+    intro = true
+    headline = "I Fly to Paraguay"
+    description = "Lasciate ogni speranza voi ch'entrate"
+    github = "https://github.com/Braytonio"
+    twitter = "https://twitter.com/ColinBrayton"
+    stackoverflow = "http://stackoverflow.com/users/54129/colin-brayton"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Bitácora"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projetos"
+    url = "/projetos/"
+    weight = 2
+
+[[menu.main]]
+    name = "Recursos"
+    url = "/page/recursos/"
+    weight = 3
+
+[[menu.main]]
+    name = "Sobre Mim"
+    url = "/page/sobre/"
+    weight = 4
